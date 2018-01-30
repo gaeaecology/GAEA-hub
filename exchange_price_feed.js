@@ -2,8 +2,8 @@
 'use strict';
 const async = require('async');
 const request = require('request');
-const eventBus = require('byteballcore/event_bus.js');
-const network = require('byteballcore/network.js');
+const eventBus = require('GAEAcore/event_bus.js');
+const network = require('GAEAcore/network.js');
 
 const symbols = ['USDT-BTC', 'BTC-GBYTE'];
 const rates = {};

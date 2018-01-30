@@ -1,7 +1,7 @@
 /*jslint node: true */
 "use strict";
 
-exports.clientName = 'byteball';
+exports.clientName = 'GAEA';
 exports.minClientVersion = '2.1.0';
 
 // https://console.developers.google.com
@@ -56,7 +56,7 @@ exports.initial_witnesses = [
 */
 
 exports.initial_peers = [
-	'wss://byteball.org/bb'
+	'wss://GAEA.org/bb'
 ];
 
 exports.trustedRegistries = {

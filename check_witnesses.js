@@ -1,9 +1,9 @@
 /*jslint node: true */
 "use strict";
-var db = require('byteballcore/db.js');
-var storage = require('byteballcore/storage.js');
-var mail = require('byteballcore/mail.js');
-var conf = require('byteballcore/conf.js');
+var db = require('GAEAcore/db.js');
+var storage = require('GAEAcore/storage.js');
+var mail = require('GAEAcore/mail.js');
+var conf = require('GAEAcore/conf.js');
 
 function notifyAdmin(message){
 	write(message);
